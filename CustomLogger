@@ -7,6 +7,31 @@ function logger(msg){
   console.log(`${msg}`)
 }
 
+/*
 firstName ='Harsha';
 lastName= 'Reddy'
 logger(`${firstName} ${lastName});
+*/
+
+function juiceShop(_fruit , _count){
+    let _price;
+    switch(_fruit){
+
+    case  `Apple`:
+    _price = 20 * _count;
+    break;
+    case 'Banana':
+    _price = 15 * _count;
+    break;
+    default:
+        return `Doesn't Exisit`
+
+    }
+
+return _price;
+
+}
+
+logger(`${juiceShop('Apple',2)}`);
+
+
