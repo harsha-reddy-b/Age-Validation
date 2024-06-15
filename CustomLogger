@@ -1,0 +1,12 @@
+/* This can be used to create a cutsom logger using function and template literals
+
+*/
+
+
+function logger(msg){
+  console.log(`${msg}`)
+}
+
+firstName ='Harsha';
+lastName= 'Reddy'
+logger(`${firstName} ${lastName});
